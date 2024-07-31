@@ -17,7 +17,7 @@ export default function AboutComponent() {
             </div>
           </div>
           <div className='w-full lg:w-1/2'>
-            <img className='w-full h-full object-cover object-left' src="images/seplaying2.jpg" alt="" />
+            <img className='w-full h-full object-cover object-left' src="images/seplaying2.jpg" alt="2 children playing together" width={480} height={478} />
           </div>
         </section>
         <section className='flex flex-col gap-6 lg:flex-row'>
