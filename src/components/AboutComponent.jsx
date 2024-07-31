@@ -11,7 +11,7 @@ export default function AboutComponent() {
               <div className='text-center'>
                   <h2 className='text-5xl font-bold'>Our Story</h2>
                   <p className='mx-auto pt-4 w-4/5 text-xl font-light leading-normal'>Learning Time Adventures begins with a dream, a dream of quality care, cultivating a safe environment that supports curiosity and provides daily adventures to stimulate the mind and sustain a foundation where children become lifelong learners in all aspects of their life. Yes, we're a small, ethical home daycare ready to take on a large childcare industry starting at home to make an impact for the greater good of our youth and future generations.</p>
-                  <img className='w-28 h-28 mt-6 mx-auto object-cover object-top rounded-full' src="/images/teacher1.jpg" alt="" />
+                  <img className='w-28 h-28 mt-6 mx-auto object-cover object-top rounded-full' src="/images/teacher1.jpg" alt="picture of owner" width={480} height={640} />
                   <p className='mx-auto pt-2 w-4/5 text-xl font-light leading-normal'>Kimberly Quirarte, the founder of Learning Time Adventures, director of the program & mother of 2.</p>
               </div>
             </div>
