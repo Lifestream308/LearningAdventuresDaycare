@@ -18,7 +18,7 @@ export default function ContactComponent() {
                     </div>
                 </div>
                 <div className='w-full md:w-1/2'>
-                    <img className='w-full h-full object-cover' src="images/stocksmall2.jpg" alt="" />
+                    <img className='w-full h-full object-cover' src="images/stocksmall2.jpg" alt="child knocking over row of blocks" width={640} height={427} />
                 </div>
             </section>
             <section className='flex flex-col gap-6 md:flex-row'>
