@@ -40,7 +40,7 @@ export default function ContactComponent() {
             </section>
         </div>
         <div className='w-full h-96 mt-16 border-y-[1px] border-gray-300'>
-            <img className='w-full h-full object-cover' src="images/map1.jpg" alt="" />
+            <img className='w-full h-full object-cover' src="images/map1.jpg" alt="map centered on West Covina" width={1589} height={527} />
         </div>
     </div>
   )
