@@ -34,7 +34,7 @@ export default function AboutComponent() {
             </div>
           </div>
           <div className='w-full lg:w-1/2'>
-            <img className='w-full h-full object-cover' src="images/bookreading2.jpg" alt="" />
+            <img className='w-full h-full object-cover' src="images/bookreading2.jpg" alt="young girl reading" width={640} height={427} />
           </div>
         </section>
 
