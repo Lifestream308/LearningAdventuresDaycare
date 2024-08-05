@@ -5,7 +5,7 @@ export default function FooterComponent() {
     <>
         <footer className='flex flex-col mt-14 mb-16 gap-8 text-blue-900 text-center'>
             <h3>LearningTimeAdventures@gmail.com</h3>
-            <small>©2024 by Learning Time Adventures Daycare</small>
+            <small>©{new Date().getFullYear()} by Learning Time Adventures Daycare</small>
         </footer>
     </>
   )
