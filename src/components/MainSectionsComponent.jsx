@@ -23,18 +23,46 @@ export default function MainSectionsComponent() {
                 <Link to='/contact' className='px-2 py-1 mt-4 w-fit text-base font-bold bg-gradient-to-r from-blue-700 to-blue-500 text-white hover:shadow-xl hover:text-gray-200 shadow-sm shadow-neutral-600 rounded-lg sm:px-4 sm:py-2 sm:text-xl md:text-2xl sm:mt-6' href="">Contact Us</Link>
               </div>
             </section>
-            <section className='flex flex-col gap-6 lg:flex-row'>
+            <section className='flex flex-col gap-6 lg:flex-row-reverse'>
               <div className='py-10 w-full bg-gradient-to-b from-yellow-200 via-yellow-200 to-yellow-300 lg:w-1/2 lg:py-4'>
                 <div className='h-full items-center flex text-blue-900'>
                   <div className=''>
                     <h2 className='text-5xl text-center font-bold'>About Us</h2>
                     <p className='mx-auto text-center pt-4 w-4/5 text-xl font-light leading-normal'>We are a licensed CDSS home daycare. Dedicated to providing quality care for all children we serve. We focus on assisting every student in their milestone development. 
                     </p>
+                    <p className='mx-auto text-center pt-4 w-4/5 text-xl font-light leading-normal'>We pride ourselves on having an amazing and kind hearted staff. All CPR certified with their Bachelor's Degree in Human Development with an emphasis on child development. 
+                    </p>
                   </div>
                 </div>
               </div>
               <div className='w-full lg:w-1/2'>
                 <img loading='lazy' className='w-full h-full object-cover' src="images/bookreading1.jpg" alt="picture of adult reading with child" width={640} height={427} />
+              </div>
+            </section>
+            <section className='flex flex-col gap-6 lg:flex-row'>
+              <div className='py-10 w-full bg-gradient-to-b from-blue-50 via-blue-50 to-blue-200 lg:w-1/2 lg:py-4'>
+                <div className='h-full flex items-center text-blue-900'>
+                  <div className='text-center'>
+                      <h2 className='text-5xl font-bold'>Nutrition</h2>
+                      <p className='mx-auto pt-4 w-4/5 text-xl font-light leading-normal'>We provide home cooked meals and two snacks a day. We have clean filtered water for refills all throughout the day. Fruit is huge with us, as well as veggies and protein.</p>
+                  </div>
+                </div>
+              </div>
+              <div className='w-full lg:w-1/2'>
+                <img loading='lazy' className='w-full h-full object-cover' src="images/healthyMeal.jpg" alt="healthy bowl of food" width={640} height={427} />
+              </div>
+            </section>
+            <section className='flex flex-col gap-6 lg:flex-row-reverse'>
+              <div className='py-10 w-full bg-gradient-to-b from-yellow-200 via-yellow-200 to-yellow-300 lg:w-1/2 lg:py-4'>
+                <div className='h-full flex items-center text-blue-900'>
+                  <div className='text-center'>
+                      <h2 className='text-5xl font-bold'>Coordination</h2>
+                      <p className='mx-auto pt-4 w-4/5 text-xl font-light leading-normal'>Our daily educational activities range from fine motor skills to gross motor skills and organized action that is intended to have a formative effect on the mind, character, or physical ability of an individual.</p>
+                  </div>
+                </div>
+              </div>
+              <div className='w-full lg:w-1/2'>
+                <img loading='lazy' className='w-full h-full object-cover' src="images/girlDrawing.jpg" alt="child drawing a picture" width={640} height={427} />
               </div>
             </section>
             <section className='flex flex-col gap-6 lg:flex-row'>
