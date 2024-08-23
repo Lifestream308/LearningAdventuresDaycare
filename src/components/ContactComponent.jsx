@@ -39,8 +39,10 @@ export default function ContactComponent() {
               </div>
             </section>
         </div>
-        <div className='w-full h-96 mt-16 border-y-[1px] border-gray-300'>
-            <img className='w-full h-full object-cover' src="images/map1.jpg" alt="map centered on West Covina" width={1589} height={527} />
+        {/* <div className='w-full h-96 mt-16 border-y-[1px] border-gray-300'> */}
+        <div className='w-full h-96 mt-16'>
+            {/* <img className='w-full h-full object-cover' src="images/map1.jpg" alt="map centered on West Covina" width={1589} height={527} /> */}
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d105787.91374695442!2d-117.99510150749457!3d34.04714656178031!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x80c329c466d70ea9%3A0xe45ef44baa0981ea!2sWest%20Covina%2C%20CA!5e0!3m2!1sen!2sus!4v1724439431582!5m2!1sen!2sus" width={800} height={400} className='w-full' loading="lazy" referrerPolicy={"no-referrer-when-downgrade"}></iframe>
         </div>
     </div>
   )
