@@ -66,7 +66,7 @@ export default function MainSectionsComponent() {
               </div>
             </section> */}
             <section className='flex flex-col gap-6 lg:flex-row'>
-              <div className='py-10 w-full bg-gradient-to-b from-blue-50 via-blue-50 to-blue-200 lg:w-1/2 lg:py-4'>
+              <div className='py-10 w-full bg-gradient-to-b from-zinc-50 via-zinc-100 to-zinc-200 lg:w-1/2 lg:py-4'>
                 <div className='h-full flex items-center text-blue-900'>
                   <div className='text-center'>
                       <h2 className='text-5xl font-bold'>Our Curriculum</h2>
