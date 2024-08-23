@@ -21,7 +21,7 @@ export default function ContactComponent() {
                     <img className='w-full h-full object-cover' src="images/stocksmall2.jpg" alt="child knocking over row of blocks" width={640} height={427} />
                 </div>
             </section>
-            <section className='flex flex-col gap-6 md:flex-row'>
+            <section className='flex flex-col gap-6 md:flex-row-reverse'>
               <div className='py-10 w-full bg-gradient-to-b from-blue-50 via-blue-50 to-blue-200 md:w-1/2 md:py-4'>
                 <div className='justify-center text-blue-900'>
                   <div className='text-center'>

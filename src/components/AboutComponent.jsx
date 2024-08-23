@@ -20,7 +20,7 @@ export default function AboutComponent() {
             <img className='w-full h-full object-cover object-left' src="images/seplaying2.jpg" alt="2 children playing together" width={480} height={478} />
           </div>
         </section>
-        <section className='flex flex-col gap-6 lg:flex-row'>
+        <section className='flex flex-col gap-6 lg:flex-row-reverse'>
           <div className='py-10 w-full bg-gradient-to-b from-yellow-200 via-yellow-200 to-yellow-300 lg:w-1/2 lg:py-4'>
             <div className='h-full items-center flex text-blue-900'>
               <div className='text-center'>
