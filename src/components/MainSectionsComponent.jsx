@@ -23,7 +23,7 @@ export default function MainSectionsComponent() {
                 <Link to='/contact' className='px-2 py-1 mt-4 w-fit text-base font-bold bg-gradient-to-r from-blue-700 to-blue-500 text-white hover:shadow-xl hover:text-gray-200 shadow-sm shadow-neutral-600 rounded-lg sm:px-4 sm:py-2 sm:text-xl md:text-2xl sm:mt-6' href="">Contact Us</Link>
               </div>
             </section>
-            <section className='flex flex-col gap-6 lg:flex-row-reverse'>
+            <section className='flex flex-col gap-6 lg:flex-row'>
               <div className='py-10 w-full bg-gradient-to-b from-yellow-200 via-yellow-200 to-yellow-300 lg:w-1/2 lg:py-4'>
                 <div className='h-full items-center flex text-blue-900'>
                   <div className=''>
@@ -39,7 +39,7 @@ export default function MainSectionsComponent() {
                 <img loading='lazy' className='w-full h-full object-cover' src="images/bookreading1.jpg" alt="picture of adult reading with child" width={640} height={427} />
               </div>
             </section>
-            <section className='flex flex-col gap-6 lg:flex-row'>
+            <section className='flex flex-col gap-6 lg:flex-row-reverse'>
               <div className='py-10 w-full bg-gradient-to-b from-blue-50 via-blue-50 to-blue-200 lg:w-1/2 lg:py-4'>
                 <div className='h-full flex items-center text-blue-900'>
                   <div className='text-center'>
@@ -52,7 +52,7 @@ export default function MainSectionsComponent() {
                 <img loading='lazy' className='w-full h-full object-cover' src="images/healthyMeal.jpg" alt="healthy bowl of food" width={640} height={427} />
               </div>
             </section>
-            <section className='flex flex-col gap-6 lg:flex-row-reverse'>
+            {/* <section className='flex flex-col gap-6 lg:flex-row-reverse'>
               <div className='py-10 w-full bg-gradient-to-b from-yellow-200 via-yellow-200 to-yellow-300 lg:w-1/2 lg:py-4'>
                 <div className='h-full flex items-center text-blue-900'>
                   <div className='text-center'>
@@ -64,7 +64,7 @@ export default function MainSectionsComponent() {
               <div className='w-full lg:w-1/2'>
                 <img loading='lazy' className='w-full h-full object-cover' src="images/girlDrawing.jpg" alt="child drawing a picture" width={640} height={427} />
               </div>
-            </section>
+            </section> */}
             <section className='flex flex-col gap-6 lg:flex-row'>
               <div className='py-10 w-full bg-gradient-to-b from-blue-50 via-blue-50 to-blue-200 lg:w-1/2 lg:py-4'>
                 <div className='h-full flex items-center text-blue-900'>
