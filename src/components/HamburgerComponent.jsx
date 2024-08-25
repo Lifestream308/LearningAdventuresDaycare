@@ -1,9 +1,11 @@
 import React from 'react'
 import { useState, useRef, useEffect } from 'react'
-import { Link } from 'react-router-dom'
+import { Link, useLocation } from 'react-router-dom'
 import './hamburgerAnimations.css'
 
 export default function HamburgerComponent() {
+
+    const location = useLocation();
 
     // mobile navigation menu opens and closes when hamburger button is pressed
     const [menuIsOpen, setMenuIsOpen] = useState(false)
@@ -14,9 +16,9 @@ export default function HamburgerComponent() {
     }
 
     const outsideClickClosesMenu = (event) => {
-        if (menuRef.current && !menuRef.current.contains(event.target)) {
-          setMenuIsOpen(false);
-        }
+      if (menuRef.current && !menuRef.current.contains(event.target)) {
+        setMenuIsOpen(false);
+      }
       }
 
       useEffect(() => {
@@ -29,6 +31,10 @@ export default function HamburgerComponent() {
           document.removeEventListener('mousedown', outsideClickClosesMenu);
         }
       }, [menuIsOpen])
+
+      useEffect(() => {
+        setMenuIsOpen(false)
+      }, [location.pathname])
 
   return (
     <>
