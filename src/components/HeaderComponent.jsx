@@ -5,8 +5,8 @@ import HamburgerComponent from './HamburgerComponent'
 export default function HeaderComponent() {
   return (
     <div className='mt-2 flex flex-col gap-8 px-[6%]'>
-        <header className='flex justify-between items-center'>
-          <nav>
+        <header>
+          <nav className='flex justify-between items-center'>
             <div className='flex items-center'>
               <Link to='/' className=''>
                 <img className='w-28 min-w-28 h-auto sm:w-32' src="images/logo2-small.png" alt="Go to homepage" width={863} height={855} />
