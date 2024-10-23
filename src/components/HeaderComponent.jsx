@@ -8,7 +8,7 @@ export default function HeaderComponent() {
         <header className='flex justify-between items-center'>
           <div className='flex items-center'>
             <Link to='/' className=''>
-              <img className='w-28 min-w-28 h-auto sm:w-32' src="images/logo2-small.png" alt="Company Tree Logo" width={863} height={855} />
+              <img className='w-28 min-w-28 h-auto sm:w-32' src="images/logo2-small.png" alt="Go to homepage" width={863} height={855} />
             </Link>
             <div className='ml-4 hidden md:block'>
               <h1 className='text-2xl font-bold text-blue-700 xl:text-3xl'>Learning Time Adventures</h1>
