@@ -13,7 +13,7 @@ export default function HeaderComponent() {
               </Link>
               <div className='ml-4 hidden md:block'>
                 <h1 className='text-2xl font-bold text-blue-700 xl:text-3xl'>Learning Time Adventures</h1>
-                <h2 className='font-extralight text-gray-600 text-base'>Licensed Daycare</h2>
+                <p className='font-extralight text-gray-600 text-base'>Licensed Daycare</p>
               </div>
             </div>
             <ul className='hidden flex-wrap items-center lg:flex'>
