@@ -9,6 +9,7 @@ import MainSectionsComponent from './components/MainSectionsComponent'
 import AboutComponent from './components/AboutComponent'
 import ContactComponent from './components/ContactComponent'
 import FooterComponent from './components/FooterComponent'
+import SitemapPage from './components/SitemapPage'
 
 function App() {
 
@@ -20,6 +21,7 @@ function App() {
         <Route path='/' element={ <MainSectionsComponent /> } />
         <Route path='/about' element={ <AboutComponent /> } />
         <Route path='/contact' element={ <ContactComponent /> } />
+        <Route path='/sitemap' element={ <SitemapPage /> } />
       </Routes>
 
       <FooterComponent />
