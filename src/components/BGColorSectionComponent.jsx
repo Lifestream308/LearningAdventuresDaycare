@@ -11,7 +11,7 @@ export default function BGColorSectionComponent() {
                 </div>
                 <div className='flex flex-col px-1 justify-center gap-4 w-full text-blue-800 text-center md:w-1/2'>
                     <h2 className='text-5xl font-bold'>Family Business</h2>
-                    <h3 className='text-2xl font-semibold'>Outstanding Quality</h3>
+                    <p className='text-2xl font-semibold'>Outstanding Quality</p>
                     <p className='text-lg font-light'>We want to recognize our parents for supporting the goal we have as a family home daycare. We feel blessed and very fortunate to be on this journey with you all!</p>
                     <p className='text-lg font-light'>We value family, we value life.</p>
                 </div>

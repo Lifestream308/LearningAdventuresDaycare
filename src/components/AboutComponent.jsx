@@ -40,7 +40,7 @@ export default function AboutComponent() {
 
 
         {/* <div className="w-full flex flex-col items-center justify-center bg-gray-100">
-          <h1 className="text-2xl font-bold mb-8">My Slideshow</h1>
+          <h2 className="text-2xl font-bold mb-8">My Slideshow</h2>
           <SlideshowComponent interval={5000} />
         </div> */}
       </div>
