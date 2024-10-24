@@ -26,7 +26,7 @@ export default function ContactComponent() {
                 <div className='justify-center text-blue-900'>
                   <div className='text-center'>
                       <h2 className='text-5xl font-bold'>Enrollment</h2>
-                      <h3 className='mt-6 italic text-2xl font-semibold'>Now Enrolling. Space is limited.</h3>
+                      <p className='mt-6 italic text-2xl font-semibold'>Now Enrolling. Space is limited.</p>
                       <p className='mx-auto pt-6 w-4/5 text-xl'>Full-day 7:00am-5:00pm</p>
                       <p className='mx-auto pt-6 w-4/5 text-xl font-light'>Please let us know when you are looking to start, what allergies your child has, and the current age of your child.</p>
                       <p className='mx-auto pt-3 w-4/5 text-xl font-light'>Thank you for your interest in our daycare.</p>
