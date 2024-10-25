@@ -1,21 +1,25 @@
 import React from 'react'
+import { Link } from 'react-router-dom'
 
 export default function SitemapPage() {
   return (
     <div>
     <div className='mt-2 flex flex-col gap-8 px-[6%]'>
-        <section className='flex flex-col gap-6 md:flex-row'>
-            <div className='py-10 w-full bg-gradient-to-b from-yellow-200 via-yellow-200 to-yellow-300 md:w-1/2 md:py-4'>
-                <div className='h-full justify-center items-center flex text-blue-900'>
-                    <div className='flex flex-col gap-6 items-center text-center'>
-                        <h2 className='px-2 text-5xl font-bold'>Site Map</h2>
-                    </div>
+        <main className=''>
+            <div className='py-10 w-full text-blue-900 bg-gradient-to-b from-zinc-50 via-zinc-100 to-zinc-200'>
+                <div className='px-2 flex flex-col gap-4'>
+                    <h2 className='text-3xl font-bold'>Site Map Links</h2>
+                    <nav>
+                        <ul className='pt-0 flex flex-col gap-4 text-xl text-blue-800'>
+                            <li><Link to='/' className='underline hover:text-blue-900 hover:font-bold'>Home</Link></li>
+                            <li><Link to='/about' className='underline hover:text-blue-900 hover:font-bold' href="">About</Link></li>
+                            <li><Link to='/contact' className='underline hover:text-blue-900 hover:font-bold' href="">Contact</Link></li>
+                            <li><Link to='/sitemap' className='underline hover:text-blue-900 hover:font-bold' href="">Site Map</Link></li>
+                        </ul>
+                    </nav>
                 </div>
             </div>
-            <div className='w-full md:w-1/2'>
-                <img className='w-full h-full object-cover' src="images/stocksmall2.jpg" alt="child knocking over row of blocks" width={640} height={427} />
-            </div>
-        </section>
+        </main>
     </div>
 </div>
   )
