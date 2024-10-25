@@ -4,7 +4,7 @@ import React from 'react'
 export default function AboutComponent() {
   return (
     <>
-      <div className='mt-2 flex flex-col gap-6 lg:gap-16 px-[6%] text-blue-900'>
+      <main className='mt-2 flex flex-col gap-6 lg:gap-16 px-[6%] text-blue-900'>
         <section className='flex flex-col gap-6 lg:flex-row'>
           <div className='py-10 w-full bg-gradient-to-b from-zinc-50 via-zinc-100 to-zinc-200 lg:w-1/2 lg:py-4'>
             <div className='h-full flex items-center'>
@@ -43,7 +43,7 @@ export default function AboutComponent() {
           <h2 className="text-2xl font-bold mb-8">My Slideshow</h2>
           <SlideshowComponent interval={5000} />
         </div> */}
-      </div>
+      </main>
     </>
   )
 }
