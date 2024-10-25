@@ -3,7 +3,7 @@ import React from 'react'
 export default function ContactComponent() {
   return (
     <div>
-        <div className='mt-2 flex flex-col gap-8 px-[6%]'>
+        <main className='mt-2 flex flex-col gap-8 px-[6%]'>
             <section className='flex flex-col gap-6 md:flex-row'>
                 <div className='py-10 w-full bg-gradient-to-b from-yellow-200 via-yellow-200 to-yellow-300 md:w-1/2 md:py-4'>
                     <div className='h-full justify-center items-center flex text-blue-900'>
@@ -38,7 +38,7 @@ export default function ContactComponent() {
                 <img className='w-full h-full object-cover' src="images/stocksmall1.jpg" alt="child playing with blocks" width={640} height={427} />
               </div>
             </section>
-        </div>
+        </main>
         {/* <div className='w-full h-96 mt-16 border-y-[1px] border-gray-300'> */}
         <div className='w-full h-96 mt-16'>
             {/* <img className='w-full h-full object-cover' src="images/map1.jpg" alt="map centered on West Covina" width={1589} height={527} /> */}
