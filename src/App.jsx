@@ -10,11 +10,13 @@ import AboutComponent from './components/AboutComponent'
 import ContactComponent from './components/ContactComponent'
 import FooterComponent from './components/FooterComponent'
 import SitemapPage from './components/SitemapPage'
+import PageTitleUpdater from './components/PageTitleUpdater'
 
 function App() {
 
   return (
     <>
+      <PageTitleUpdater />
       <HeaderComponent />
 
       <Routes>
