@@ -12,7 +12,7 @@ export default function HamburgerComponent() {
     const menuRef = useRef(null);
 
     const toggleMenu = () => {
-        setMenuIsOpen(!menuIsOpen)
+        setMenuIsOpen((prev) => !prev)
     }
 
     const outsideClickClosesMenu = (event) => {
@@ -40,7 +40,7 @@ export default function HamburgerComponent() {
     <>
         <div ref={menuRef} className='flex lg:hidden'>
             <div className='h-20 p-4'>
-                <button className='h-full w-16 flex flex-col justify-between cursor-pointer' onClick={toggleMenu} aria-label='Menu' title='Menu'>
+                <button className='h-full w-16 flex flex-col justify-between cursor-pointer' onClick={toggleMenu} aria-label='Menu' aria-expanded={menuIsOpen} title='Menu'>
                     <div className={(menuIsOpen? 'hamburgerCrossed' : 'hamburgerStacked') + ' h-2 w-full rounded-lg bg-blue-800'} ></div>
                     <div className={(menuIsOpen? 'hamburgerCrossed' : 'hamburgerStacked') + ' h-2 w-full rounded-lg bg-blue-800'} ></div>
                     <div className={(menuIsOpen? 'hamburgerCrossed' : 'hamburgerStacked') + ' h-2 w-full rounded-lg bg-blue-800'} ></div>
