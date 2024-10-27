@@ -6,7 +6,7 @@ export default function MainSectionsComponent() {
   return (
     <>
       <div className='mt-2 flex flex-col gap-8 px-[6%]'>
-          <main className='flex flex-col gap-6 justify-center md:gap-16'>
+          <main id='main' className='flex flex-col gap-6 justify-center md:gap-16'>
             <div className='mt-2 text-center md:hidden'>
               <h1 className='text-2xl font-bold text-blue-700 md:hidden'>Learning Time Adventures</h1>
               <p className='font-extralight text-gray-600 text-base'>Licensed Daycare</p>

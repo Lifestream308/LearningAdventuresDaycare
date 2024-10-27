@@ -5,7 +5,7 @@ export default function SitemapPage() {
   return (
     <div>
     <div className='mt-2 flex flex-col gap-8 px-[6%]'>
-        <main className=''>
+        <main id='main' className=''>
             <div className='py-10 w-full text-blue-900 bg-gradient-to-b from-zinc-50 via-zinc-100 to-zinc-200'>
                 <div className='px-2 flex flex-col gap-4'>
                     <h2 className='text-3xl font-bold'>Site Map Links</h2>
