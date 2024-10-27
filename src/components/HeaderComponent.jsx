@@ -1,11 +1,13 @@
 import React from 'react'
 import { Link } from 'react-router-dom'
 import HamburgerComponent from './HamburgerComponent'
+import SkipLinkComponent from './SkipLinkComponent'
 
 export default function HeaderComponent() {
   return (
     <div className='mt-2 flex flex-col gap-8 px-[6%]'>
         <header>
+          <SkipLinkComponent />
           <nav className='flex justify-between items-center'>
             <div className='flex items-center'>
               <Link to='/' className=''>
