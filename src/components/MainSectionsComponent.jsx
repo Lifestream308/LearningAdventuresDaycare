@@ -11,7 +11,7 @@ export default function MainSectionsComponent() {
               <h1 className='text-2xl font-bold text-blue-700 md:hidden'>Learning Time Adventures</h1>
               <p className='font-extralight text-gray-600 text-base'>Licensed Daycare</p>
             </div>
-            <section className='relative w-full h-auto'>
+            <section className='relative w-full h-auto' aria-label='Introduction section'>
               <img className='w-full h-auto min-h-[20rem] max-h-[35rem] object-cover object-right' src={window.innerWidth <= 700 ? 'images/pexels1-small.webp' : 'images/pexels1.jpg'} alt="Picture of a classroom" width={1280} height={853} />
               <div className='absolute inset-0 w-7/10 bg-gradient-to-r from-gray-900/90 to-gray-500/5'></div>
               <div className='absolute w-full h-full flex flex-col top-0 justify-center left-[7%]'>
@@ -19,7 +19,6 @@ export default function MainSectionsComponent() {
                 <p className='font-bold text-white text-2xl sm:text-4xl md:text-5xl lg:text-6xl'>play, and grow.</p>
                 <p className='mt-3 hidden font-extralight text-neutral-200 text-base sm:block md:text-lg lg:text-2xl'>Dedicated to offering a loving,</p>
                 <p className='hidden font-extralight text-neutral-200 text-base sm:block md:text-lg lg:text-2xl'>educational, and fun experience.</p>
-                {/* <h2 className='w-4/5 font-bold text-white text-2xl leading-tight sm:text-4xl md:text-5xl lg:text-6xl lg:w-3/4'>Welcome to Learning Time Adventures Daycare</h2> */}
                 <Link to='/contact' className='px-2 py-1 mt-4 w-fit text-base font-bold bg-gradient-to-r from-blue-700 to-blue-500 text-white hover:shadow-xl hover:text-gray-200 shadow-sm shadow-neutral-600 rounded-lg sm:px-4 sm:py-2 sm:text-xl md:text-2xl sm:mt-6' href="">Contact Us</Link>
               </div>
             </section>
