@@ -10,9 +10,9 @@ export default function SitemapPage() {
             <nav aria-label='Site Map'>
                 <ul className='pt-0 flex flex-col gap-4 text-xl text-blue-800'>
                     <li><Link to='/' className='underline hover:text-blue-900 hover:font-bold'>Home</Link></li>
-                    <li><Link to='/about' className='underline hover:text-blue-900 hover:font-bold' href="">About</Link></li>
-                    <li><Link to='/contact' className='underline hover:text-blue-900 hover:font-bold' href="">Contact</Link></li>
-                    <li><Link to='/sitemap' className='underline hover:text-blue-900 hover:font-bold' href="">Site Map</Link></li>
+                    <li><Link to='/about' className='underline hover:text-blue-900 hover:font-bold'>About</Link></li>
+                    <li><Link to='/contact' className='underline hover:text-blue-900 hover:font-bold'>Contact</Link></li>
+                    <li><Link to='/sitemap' className='underline hover:text-blue-900 hover:font-bold'>Site Map</Link></li>
                 </ul>
             </nav>
         </main>
