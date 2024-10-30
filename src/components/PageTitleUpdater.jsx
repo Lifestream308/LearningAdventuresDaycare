@@ -8,7 +8,7 @@ const PageTitleUpdater = () => {
 
     switch (location.pathname) {
       case '/':
-        document.title = 'Home | Learning Time Adventures';
+        document.title = 'Home Daycare | Learning Time Adventures | West Covina';
         break;
       case '/about':
         document.title = 'About Us | Learning Time Adventures';
