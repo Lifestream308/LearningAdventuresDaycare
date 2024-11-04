@@ -17,7 +17,7 @@ export default function MainSectionsComponent() {
               <div className='absolute w-full h-full flex flex-col top-0 justify-center left-[7%]'>
                 <p className='font-bold text-white text-2xl sm:text-4xl md:text-5xl lg:text-6xl'>A place to learn,</p>
                 <p className='font-bold text-white text-2xl sm:text-4xl md:text-5xl lg:text-6xl'>play, and grow.</p>
-                <p className='mt-4 max-w-[50%] font-extralight text-neutral-200 text-sm sm:text-base md:text-lg lg:text-2xl'>Ready to enroll your child in a trusted West Covina Daycare?</p>
+                <p className='mt-4 max-w-[50%] font-extralight text-neutral-200 text-sm sm:text-base md:text-lg lg:text-2xl'>Ready to enroll your child in a trusted West Covina daycare?</p>
                 {/* <p className='mt-3 hidden font-extralight text-neutral-200 text-base sm:block md:text-lg lg:text-2xl'>Dedicated to offering a loving,</p> */}
                 {/* <p className='hidden font-extralight text-neutral-200 text-base sm:block md:text-lg lg:text-2xl'>educational, and fun experience.</p> */}
                 <Link to='/contact' className='px-2 py-1 mt-4 w-fit text-base font-bold bg-gradient-to-r from-blue-700 to-blue-500 text-white hover:shadow-xl hover:text-gray-200 shadow-sm shadow-neutral-600 rounded-lg sm:px-4 sm:py-2 sm:text-xl md:text-2xl sm:mt-6'>Contact Us</Link>
@@ -27,7 +27,7 @@ export default function MainSectionsComponent() {
               <div className='py-10 w-full bg-gradient-to-b from-yellow-200 via-yellow-200 to-yellow-300 lg:w-1/2 lg:py-4'>
                 <div className='h-full items-center flex text-blue-900'>
                   <div className=''>
-                    <h2 className='text-5xl text-center font-bold'>About Us</h2>
+                    <h2 className='text-5xl text-center font-bold'>West Covina Daycare</h2>
                     <p className='mx-auto text-center pt-4 w-4/5 text-xl font-light leading-normal'>We are a licensed CDSS home daycare. Dedicated to providing quality care for all children we serve. We focus on assisting every student in their milestone development. 
                     </p>
                     <p className='mx-auto text-center pt-4 w-4/5 text-xl font-light leading-normal'>We pride ourselves on having an amazing and kind hearted staff. All CPR certified with their Bachelor's Degree in Human Development with an emphasis on child development. 
