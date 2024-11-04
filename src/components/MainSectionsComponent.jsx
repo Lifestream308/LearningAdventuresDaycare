@@ -17,8 +17,9 @@ export default function MainSectionsComponent() {
               <div className='absolute w-full h-full flex flex-col top-0 justify-center left-[7%]'>
                 <p className='font-bold text-white text-2xl sm:text-4xl md:text-5xl lg:text-6xl'>A place to learn,</p>
                 <p className='font-bold text-white text-2xl sm:text-4xl md:text-5xl lg:text-6xl'>play, and grow.</p>
-                <p className='mt-3 hidden font-extralight text-neutral-200 text-base sm:block md:text-lg lg:text-2xl'>Dedicated to offering a loving,</p>
-                <p className='hidden font-extralight text-neutral-200 text-base sm:block md:text-lg lg:text-2xl'>educational, and fun experience.</p>
+                <p className='mt-4 max-w-[50%] font-extralight text-neutral-200 text-sm sm:text-base md:text-lg lg:text-2xl'>Ready to enroll your child in a trusted West Covina Daycare?</p>
+                {/* <p className='mt-3 hidden font-extralight text-neutral-200 text-base sm:block md:text-lg lg:text-2xl'>Dedicated to offering a loving,</p> */}
+                {/* <p className='hidden font-extralight text-neutral-200 text-base sm:block md:text-lg lg:text-2xl'>educational, and fun experience.</p> */}
                 <Link to='/contact' className='px-2 py-1 mt-4 w-fit text-base font-bold bg-gradient-to-r from-blue-700 to-blue-500 text-white hover:shadow-xl hover:text-gray-200 shadow-sm shadow-neutral-600 rounded-lg sm:px-4 sm:py-2 sm:text-xl md:text-2xl sm:mt-6'>Contact Us</Link>
               </div>
             </section>
