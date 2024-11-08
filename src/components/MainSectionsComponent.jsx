@@ -14,7 +14,7 @@ export default function MainSectionsComponent() {
             <section className='relative w-full h-auto' aria-label='Introduction section'>
               <img className='w-full h-auto min-h-[20rem] max-h-[35rem] object-cover object-right' src={window.innerWidth <= 700 ? 'images/pexels1-small.webp' : 'images/pexels1.jpg'} alt="Picture of a classroom" width={1280} height={853} />
               <div className='absolute inset-0 w-7/10 bg-gradient-to-r from-gray-900/90 to-gray-500/5'></div>
-              <div className='absolute w-full h-full flex flex-col top-0 justify-center left-[7%]'>
+              <div className='absolute pl-[7%] w-full h-full flex flex-col top-0 justify-center'>
                 <p className='font-bold text-white text-2xl sm:text-4xl md:text-5xl lg:text-6xl'>A place to learn,</p>
                 <p className='font-bold text-white text-2xl sm:text-4xl md:text-5xl lg:text-6xl'>play, and grow.</p>
                 <p className='mt-4 max-w-[50%] font-extralight text-neutral-200 text-sm sm:text-base md:text-lg lg:text-2xl'>Ready to enroll your child in a trusted West Covina daycare?</p>
