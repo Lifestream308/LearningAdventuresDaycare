@@ -13,7 +13,7 @@ export default function MainSectionsComponent() {
             </div>
             <section className='relative w-full h-auto' aria-label='Introduction section'>
               <img className='w-full h-auto min-h-[20rem] max-h-[35rem] object-cover object-right' src={window.innerWidth <= 700 ? 'images/pexels1-small.webp' : 'images/pexels1.jpg'} alt="Picture of a classroom" width={1280} height={853} />
-              <div className='absolute inset-0 w-7/10 bg-gradient-to-r from-gray-900/90 to-gray-500/5'></div>
+              <div className='absolute inset-0 bg-gradient-to-r from-gray-900/90 to-gray-900/10'></div>
               <div className='absolute pl-[7%] w-full h-full flex flex-col top-0 justify-center'>
                 <p className='font-bold text-white text-2xl sm:text-4xl md:text-5xl lg:text-6xl'>A place to learn, 
                   <br />
