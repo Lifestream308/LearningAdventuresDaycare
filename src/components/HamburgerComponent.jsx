@@ -40,9 +40,9 @@ export default function HamburgerComponent() {
     <>
         <div ref={menuRef} className='flex lg:hidden'>
             <button className='mr-4 h-20 w-16 relative' onClick={toggleMenu} aria-label='Menu' aria-expanded={menuIsOpen} title='Menu'>
-                <div className={(menuIsOpen? 'hamburgerCrossed' : 'hamburgerStacked') + ' h-2 w-full absolute rounded-lg bg-blue-800 top-1/4 left-1/2'} ></div>
-                <div className={(menuIsOpen? 'hamburgerCrossed' : 'hamburgerStacked') + ' h-2 w-full absolute rounded-lg bg-blue-800 top-1/2 left-1/2'} ></div>
-                <div className={(menuIsOpen? 'hamburgerCrossed' : 'hamburgerStacked') + ' h-2 w-full absolute rounded-lg bg-blue-800 top-3/4 left-1/2'} ></div>
+                <div className={(menuIsOpen? 'hamburgerCrossed' : 'hamburgerStacked') + ' h-2 w-full absolute rounded-lg bg-blue-800 border border-blue-800 top-1/4 left-1/2'} ></div>
+                <div className={(menuIsOpen? 'hamburgerCrossed' : 'hamburgerStacked') + ' h-2 w-full absolute rounded-lg bg-blue-800 border border-blue-800 top-1/2 left-1/2'} ></div>
+                <div className={(menuIsOpen? 'hamburgerCrossed' : 'hamburgerStacked') + ' h-2 w-full absolute rounded-lg bg-blue-800 border border-blue-800 top-3/4 left-1/2'} ></div>
             </button>
             <div className={(menuIsOpen? 'w-[12rem] opacity-100' : 'w-0 opacity-0') + ' pb-6 h-fit absolute flex justify-center bg-white top-28 right-0 rounded-bl-lg z-10 transition-all ease-in duration-200 overflow-hidden'} aria-hidden={!menuIsOpen}>
                 <ul className='pt-6 flex flex-col gap-6 text-center'>
